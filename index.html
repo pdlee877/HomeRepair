@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+	<link rel="stylesheet" type="text/css" href="resources/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
+	<title>HomeRepair</title>
+</head>
+
+<body>
+
+	<header>
+		<nav>
+			<ul class="topnav" id="dropdownClick">
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#services">Services</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+			</ul>
+		</nav>
+		<div class="hero-text-box">
+			<h1>HomeRepair</h1>
+			<h2 class="header-h2">Home Repair Services</h2>
+			<h2 class="header-h2">(123) 456 - 7890</h2>
+		</div>
+	
+	</header>
+	
+	<section class="about">
+		<div class="row">
+			<h2 class="section-heading">About HomeRepair</h2>
+			<p class="long-copy">Provide out clients with the best in home repair services. Our repair specialists have over 25 years of experience in performing residential repairs. We provide owners with a detailed work proposal that includes the scope of work to be performed, a description of the procedures, specific details on the structural repairs being performed. Have peace of mind with getting quality workmanship backed by a transferable lifetime warranty.</p>
+		</div>
+	</section>
+	
+	<section class="services">
+		<div class="row">
+			<h2 class="section-heading">Services</h2>
+		</div>
+		<div class="row">
+			<div class="col span-1-of-4">
+				<h3>Roof</h3>
+			</div>
+			<div class="col span-1-of-4">
+				<h3>Water Heater</h3>
+			</div>
+			<div class="col span-1-of-4">
+				<h3>AC Unit Repair/Replacement</h3>
+			</div>
+			<div class="col span-1-of-4">
+				<h3>Kitchen Remodel</h3>
+			</div>
+		</div>
+	</section>
+
+  <section class="repair-form">
+		<div class="row">
+			<h2 class="section-heading">Free Quote!</h2>
+		</div>
+		<div class="row">
+			<form method="post" action="#" class="contact-form">
+				<div class="row">
+					<div class="col span-1-of-3">
+						<label for="name">Name</label>
+					</div>
+					<div class="col span-2-of-3">
+						<input type="text" name="name" id="name" placeholder="Name">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col span-1-of-3">
+						<label for="number">Number</label>
+					</div>
+					<div class="col span-2-of-3">
+						<input type="number" name="number" id="number" placeholder="Phone Number">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col span-1-of-3">
+						<label for="email">Email</label>
+					</div>
+					<div class="col span-2-of-3">
+						<input type="email" name="email" id="email" placeholder="Email">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col span-1-of-3">
+						<label for="zipcode">Zip Code</label>
+					</div>
+					<div class="col span-2-of-3">
+						<input type="number" name="zipcode" id="zipcode" placeholder="Zip Code">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col span-1-of-3">
+						<label>Description</label>
+					</div>
+					<div class="col span-2-of-3">
+						<textarea name="description" placeholder="Describe your issue..."></textarea>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col span-1-of-3">
+						<label>Image Upload</label>
+					</div>
+					<div class="col span-2-of-3">
+						<input type="file" name="image" id="image">
+					</div>
+				</div>	
+				<div class="row">
+					<div class="col span-1-of-3">
+						<label>&nbsp;</label>
+					</div>
+					<div class="col span-2-of-3">
+						<input type="submit" value="Submit">
+					</div>
+				</div>
+			</form>
+		</div>
+	</section>
+	
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>
+	<script src="resources/js/script.js"></script>
+    
+</body>
+
+</html>
