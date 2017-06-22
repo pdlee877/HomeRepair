@@ -136,7 +136,7 @@ nav ul {
 
 ul.topnav li {
 	list-style: none;
-	float: left;
+	float: right;
 }
 
 ul.topnav li a {
@@ -158,6 +158,20 @@ ul.topnav li.dropdownIcon {
 	display: none;
 }
 
+ul.topnav .logo {
+	width: auto;
+	float: left;
+	margin: 5px;
+}
+
+/*----- STICKY NAV -----*/
+
+.sticky {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
 
 /*----- CONTACT FORM -----*/
 
